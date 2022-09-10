@@ -2,6 +2,19 @@
   background-color: lightblue;
 }
 
-.gallery-container {
+.gallery-item-container {
+
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.gallery-item {
+  object-fit: contain;
+  height: 300px;
+  flex-shrink: 1;
+  background-color: gray;
 }
